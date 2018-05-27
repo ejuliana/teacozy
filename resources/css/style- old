@@ -1,0 +1,72 @@
+/*Universal Styles*/
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: lightgrey;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+/*Header*/
+
+header {
+  font-family: Helvetica;
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  text-decoration: underline;
+  }
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  /*padding-left: 10px;*/
+  }
+
+  .logo img {
+    height: 50px;
+    margin-right: 12px;
+    padding: 10px;
+  }
+
+nav {
+  display: flex;
+  padding-right: 40px;
+}
+
+logo span {
+  display: inline;
+  text-decoration: underline;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 20px 10px;
+  color: seashell;
+}
+
+/*Mission*/
+
+.mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  background-image: url("\resources\images\img-mission-background.jpg");
+
+}
+
+/*Tea of the Month*/
+
+/*Locations*/
+
+/*Footer*/
+
+footer {
+
+}
